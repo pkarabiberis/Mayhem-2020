@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".luostoFragments.FragmentSportsLuosto">
+
+	<LinearLayout
+		android:id="@+id/timetables"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textAlignment="center"
+			android:textColor="#000000"
+			android:layout_marginVertical="20dp"
+			android:textSize="30dp"
+			android:text="Olos 25.4" />
+
+		<TextView
+			android:id="@+id/infoText_olos"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textColor="#FF0000"
+			android:layout_marginHorizontal="10dp"
+			android:textSize="20dp"
+			android:text="" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textAlignment="center"
+			android:textColor="#605F5F"
+			android:layout_marginVertical="10dp"
+			android:textStyle="bold"
+			android:textSize="16dp"
+			android:text="Saturday" />
+
+		<View
+			android:layout_width="40dp"
+			android:layout_gravity="center"
+			android:layout_height="2dp"
+			android:layout_marginVertical="5dp"
+			android:background="#c0c0c0"/>
+	</LinearLayout>
+
+</FrameLayout>

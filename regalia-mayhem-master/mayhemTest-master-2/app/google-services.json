@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201442943211",
+    "firebase_url": "https://mayhemfirebase.firebaseio.com",
+    "project_id": "mayhemfirebase",
+    "storage_bucket": "mayhemfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201442943211:android:c6ecfd4c985210080fdeae",
+        "android_client_info": {
+          "package_name": "com.example.mayhemfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201442943211-fe4f25j64ters57921ubsvn7u04iq6dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mayhemfb",
+            "certificate_hash": "7333405a4a9089a7b0f2afa5a1fb80f8cc8b8362"
+          }
+        },
+        {
+          "client_id": "201442943211-tbrr59o494a3n4pd36khiqfna3kid2tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLOLJhIbPPa1eTNIYt-LzuWUtJKJXs3rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201442943211-tbrr59o494a3n4pd36khiqfna3kid2tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

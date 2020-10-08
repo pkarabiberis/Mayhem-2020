@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+
+			<ImageView
+				android:id="@+id/hillClimb_btn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginTop="40dp"
+				android:adjustViewBounds="true"
+				android:contentDescription="HillClimb"
+				android:scaleType="fitStart"
+				android:src="@drawable/scott_hillclimb_mayhem" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_marginBottom="15dp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:text="SCOTT HILLCLIMB SERIES" />
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<ImageView
+				android:id="@+id/hillCross_btn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dp"
+				android:layout_marginHorizontal="20dp"
+				android:adjustViewBounds="true"
+				android:scaleType="fitStart"
+				android:contentDescription="Hillcross Series"
+				android:src="@drawable/hillcross_series_mayhem" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:layout_marginBottom="15dp"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:text="HILLCROSS SERIES" />
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<ImageView
+				android:id="@+id/slopeStyle_btn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="20dp"
+				android:layout_marginTop="40dp"
+				android:adjustViewBounds="true"
+				android:contentDescription="Ski Slopestyle"
+				android:scaleType="fitStart"
+				android:src="@drawable/ski_slopestyle_mayhem" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:text="SKI SLOPESTYLE" />
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<ImageView
+				android:id="@+id/snowboard_slope_btn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dp"
+				android:layout_marginHorizontal="20dp"
+				android:adjustViewBounds="true"
+				android:scaleType="fitStart"
+				android:contentDescription="Snowboard slopestyle"
+				android:src="@drawable/snowboard_slopestyle_mayhem" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:text="SNOWBOARD SLOPESTYLE"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold" />
+
+		</RelativeLayout>
+
+		<View
+			android:id="@+id/empty_space_view"
+			android:layout_width="fill_parent"
+			android:layout_height="30dp"></View>
+
+	</LinearLayout>
+
+</ScrollView>

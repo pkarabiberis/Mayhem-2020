@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<ImageView
+			android:id="@+id/banked_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:contentDescription="HillClimb"
+			android:scaleType="fitStart"
+			android:src="@drawable/banked_slalom" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_marginVertical="15dp"
+				android:layout_weight="0.5"
+				android:text="BANKED SLALOM XL"
+				android:textAlignment="textStart"
+				android:textColor="#000000"
+				android:textSize="27dp"
+				android:textStyle="bold" />
+
+			<Button
+				android:id="@+id/registration_btn"
+				android:layout_width="match_parent"
+				android:layout_height="25dp"
+				android:layout_marginVertical="25dp"
+				android:layout_marginRight="10dp"
+				android:layout_weight="0.9"
+				android:background="#E7F5FF"
+				android:text="Join in!"
+				android:textAlignment="center"
+				android:textColor="#2B2828"
+				android:textSize="10dp" />
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginHorizontal="10dp"
+			android:layout_marginVertical="10dp"
+			android:text="Banked Slalom Mayhem in its inimitable style. Higher and longer curves mean more frantic ride... and that's completely fine."
+			android:textAlignment="textStart"
+			android:textColor="#000000"
+			/>
+
+		<TextView
+			android:id="@+id/timeHillClimb"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginHorizontal="10dp"
+			android:layout_marginTop="15dp"
+			android:drawableLeft="@drawable/ic_access_time_black_24dp"
+			android:drawablePadding="4dp"
+			android:text="-"
+			android:textColor="#000000" />
+
+		<TextView
+			android:id="@+id/scoreCaption"
+			android:layout_marginTop="40dp"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:text="RESULTS"
+			android:textAlignment="center"
+			android:textColor="#000000"
+			/>
+
+		<View
+			android:layout_width="60dp"
+			android:layout_gravity="center"
+			android:layout_height="2dp"
+			android:layout_marginVertical="5dp"
+			android:background="#009de0"/>
+
+		<TextView
+			android:id="@+id/emptyScore_banked_yllas"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginVertical="2dp"
+			android:textAlignment="center"
+			android:textColor="#000000"
+			android:text=""
+			/>
+
+		<HorizontalScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:scrollbarFadeDuration="0"
+			android:scrollbarThumbHorizontal="@color/colorPrimary"
+			android:layout_marginBottom="30dp"
+			>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/captionsLayoutBanked_yllas"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:orientation="horizontal">
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/listOfScores"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+				</LinearLayout>
+			</LinearLayout>
+		</HorizontalScrollView>
+	</LinearLayout>
+</ScrollView>
